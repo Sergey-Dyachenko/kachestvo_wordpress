@@ -11,10 +11,17 @@
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"/>
-<?php wp_head(); ?>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/owl-carousel/owl.carousel.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/fancybox/jquery.fancybox.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/countdown/jquery.countdown.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/css/fonts.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/css/media.css"/>
+
+
 </head>
 <body>
 		<div class="page-wrap">

@@ -12,13 +12,6 @@ Text Domain: ODATRY
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-@import('libs/fancybox/jquery.fancybox.css');
-@import('libs/countdown/jquery.countdown.css');
-@import('libs/owl-carousel/owl.carousel.css');
-@import('css/fonts.css');
-@import('libs/bootstrap/bootstrap-grid-3.3.1.min.css');
-@import('libs/font-awesome-4.2.0/css/font-awesome.min.css');
-@import('css/media.css');
 
 *::-webkit-input-placeholder {
 	color: #fff;
