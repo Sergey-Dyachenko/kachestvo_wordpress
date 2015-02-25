@@ -20,8 +20,6 @@
 	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
 	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/font-awesome/css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/css/media.css"/>
-
-
 </head>
 <body>
 		<div class="page-wrap">
@@ -87,94 +85,10 @@
 							<div class="row">
 								<nav class="menu_row" >
 									
-									<div  class="col-xs-12">	
-											<ul id="menu" >
-												
-												<li ><a href="#">Про академію</a> 
-														<ul>	
-																<li><a href="#">Слово ректора</a></li>
-																<li><a href="#">Програма розвитку</a></li>
-																<li><a href="#">Історія</a></li>
-																<li><a href="#">Керівництво</a></li>
-																<li><a href="#">Структура Академії</a></li>
-																<li><a href="#">Якість освіти</a></li>
-																<li><a href="#">Сертифікати та ліцензії</a></li>
-																<li><a href="#">Почесні доктори та професори</a>
-																		<ul>
-																			<li> <a href="#">Почесні доктори</a></li>
-																			<li> <a href="#">Почесні професори</a> </li>
-																			<li> <a href="#">Положення про присвоєння звань</a> </li>	
-																		</ul>
-																</li>
-																<li> <a href="#">Наглядова Рада</a></li>
-																<li><a href="#">Наші досягнення</a></li>
-																<li><a href="#">Дошка оголошень</a></li>
-																<li><a href="#">Фотогалерея</a></li>
-																<li><a href="#">Новини</a></li>
-																		<ul>
-																			<li>
-																				<a href="#"> Новини</a>
-																			</li>
-																			<li>
-																			 	<a href="#">Газета стандарт</a>	
-																			</li>
-																		</ul>
-																</li>
-														</ul>
-												</li>
-														
-												<li><a href="#">Абітурієнту</a>
-														<ul>
-															<li><a href="#">Правила прийому 2015</a></li>
-															<li><a href="#">Напрями підготовки</a></li>
-															<li><a href="#">Вступ в магістратуру</a></li>
-															<li><a href="#">Друга вища освіта</a></li>
-															<li><a href="#">Заочно-дистанційна освіта</a></li>
-															<li><a href="#">Підготовчі курси</a></li>
-															<li><a href="#">Питання-Відповідь</a></li>	
-														</ul>
-												</li>
-												<li><a href="#">Студенту</a>
-														<ul>	
-																<li><a href="#">Студентський парламент</a>
-																		<ul>
-																			<li><a href="#">Cтруктура</a></li>
-																			<li><a href="#">Положення про студентський парламент</a></li>
-																			<li><a href="#">Права та обов'язки студентів</a></li>
-																		</ul>
-																</li>
-																<li><a href="#">Стипендії</a></li>
-																<li><a href="#">Відпочинок та медичне забезпечення</a></li>
-																<li><a href="#">Дозвілля</a></li>
-																<li><a href="#">Спорт</a></li>
-																<li><a href="#">Працевлаштування</a></li>
-														</ul>
-												</li>
-												<li><a href="#">Наукова та міжнародна работа</a>
-														<ul>	
-																<li> <a href="#">Наукова робота</a>
-																		<ul>
-																			<li><a href="#">Наукова робота</a></li>
-																			<li><a href="#">Наукові видання</a></li>
-																		</ul>
-																</li>
-																<li> <a href="#">Міжнародна робота</a></li>
-														</ul>
-												</li>
-												<li><a href="#">Виховна та навчальна робота</a>
-														<ul>
-															<li><a href="#">Виховна робота</a></li>
-															<li><a href="#">Навчальна робота</a></li>
-														</ul>
-												</li>
-												<li id="last"><a href="#">Контакти</a>
-														<ul>
-															<li><a href="#">Контакти академії</a></li>
-															<li><a href="#">Доступ до публічної інформації</a></li>
-														</ul>
-												</li>	
+									<div  class="col-xs-12" id="menu">	
+																							
+											<?php wp_nav_menu();?>
 									
-											</ul>
 									</div>
 								</nav>
 							</div>
