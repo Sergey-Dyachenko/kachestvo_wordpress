@@ -11,15 +11,15 @@
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="shortcut icon" href="<?php bloginfo('template_url');?>/favicon.ico" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/owl-carousel/owl.carousel.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/fancybox/jquery.fancybox.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/countdown/jquery.countdown.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/css/fonts.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/libs/font-awesome/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="http://kachestvo/wp-content/themes/odatry/css/media.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/libs/owl-carousel/owl.carousel.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/libs/fancybox/jquery.fancybox.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/libs/countdown/jquery.countdown.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/fonts.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/libs/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/media.css"/>
 </head>
 <body>
 		<div class="page-wrap">
@@ -66,7 +66,7 @@
 								<div class="logo_section">	
 										<div class="col-xs-2">
 											<div class="logo_div">
-												<img class="logo_img" src="/wp-content/themes/odatry/img/logo.png" alt="">
+												<a href="<?php get_home_url();?>/index.php"><img class="logo_img" src="<?php bloginfo('template_url');?>/img/logo.png" alt="Логотип академії" /> </a>
 											</div>
 										</div>
 										<div class="col-xs-6 " class="wrap_academy">

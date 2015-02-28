@@ -59,7 +59,9 @@ body {
 
  h1{
 	text-align: center;
+	color:#4c555e;
 }
+
 
 
 /* Begin style header social*/
@@ -706,3 +708,16 @@ height: 260px;
 }
 
 /*End style footer*/
+
+
+/*Begin style pages*/
+
+.post h4 a img{
+	float:right;
+	padding: 10px 20px;
+
+}
+.post-wrap{
+	background-color: #e2e2e2;
+}
+/*End style pages*/
