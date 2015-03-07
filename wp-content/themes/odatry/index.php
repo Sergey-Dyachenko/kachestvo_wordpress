@@ -52,12 +52,27 @@ get_header();
 						
 					</div>	
 				</div>
-				<div class="container">
-					<div class="row think_section">
-						<div class="col-xs-12">
-							<h2>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nunc non diam </br> erat. In fringilla massa ut nisi 
-							ullamcorper pellentesque „</h2>
+				<div class="think_wrap">
+					<div class="container">
+						<div class="row think_section">
+							<div class="col-xs-12">
+								<!-- Начало Случайный вывод цитат-->
+								<?php
+
+								query_posts(array('orderby' => 'rand', 'showposts' => 1,  'category_name' => 'Цитаты'));
+
+								if (have_posts()) :
+
+								while (have_posts()) : the_post(); ?>
+
+										
+									<div class="citati"><?php the_content(); ?></div>
+
+								<?php endwhile;
+
+								endif; ?>
+								<!-- Конец Случайный вывод цитат-->
+							</div>
 						</div>
 					</div>
 				</div>

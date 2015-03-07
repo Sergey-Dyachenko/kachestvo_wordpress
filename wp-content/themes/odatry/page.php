@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-         <div class="post-wrap">
+        <div class="post-wrap">
             <div class="container" > 
                 <?php if (have_posts()):while(have_posts()): the_post() ;?>
                         <div class="post-main">
@@ -10,6 +10,7 @@
                         </div><!--end post-name-->
                      	<?php endwhile;?> 
                 <?php   endif ;?>   
-            </div>          
+            </div> 
+         </div>         
                      
 <?php get_footer(); ?>
