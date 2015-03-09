@@ -31,24 +31,40 @@ get_header();
 				<div class="container">
 					<div class="row" class="sidebar_section">
 						<?php get_sidebar();?>
-						<div class="col-xs-3">
-							<div class="prive">64X64px</div>
-							<h3 class="title_news">Vivamuslibero Augue</h3>
-							<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
+						
+						<!-- Начало Случайный вывод цитат-->
+								<?php
+
+								query_posts(array('orderby' => 'date', 'showposts' => 3,  'category_name' => 'Новини'));
+
+								if (have_posts()) :
+
+								while (have_posts()) : the_post(); ?>
+
+									<div class="col-xs-3">
+										<div class="img_preview"><a href="<?php the_permalink();?>"> <?php the_post_thumbnail();?></a></div> 
+										<p><?php the_time('F jS, Y') ;?></p>
+										<p><?php the_title();?></p>
+										<a href="<?php the_permalink();?>">Переглянути новину>></a>
+									</div>	
+									
+
+								<?php endwhile;
+
+								endif; ?>
+								<!-- Конец Случайный вывод цитат-->
+						
+						
+						<!--<div class="col-xs-3">
+							<div class="img_preview"> 210 X 140 px</div> 
+							<p>Cursuspe natis accum ut cura bitur nulla tellus tor ames.</p>
+							<a href="#">View project>></a>
 						</div>
 						<div class="col-xs-3">
-							<div class="prive">64X64px</div>
-							<h3 class="title_news">Vivamuslibero Augue</h3>
-							<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
-						</div>
-						<div class="col-xs-3">
-							<div class="prive">64X64px</div>
-							<h3 class="title_news">Vivamuslibero Augue</h3>
-							<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
-						</div>
+							<div class="img_preview"> 210 X 140 px</div> 
+							<p>Cursuspe natis accum ut cura bitur nulla tellus tor ames.</p>
+							<a href="#">View project>></a>
+						</div>-->
 						
 					</div>	
 				</div>

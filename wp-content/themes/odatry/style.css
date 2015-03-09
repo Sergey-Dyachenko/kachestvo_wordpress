@@ -625,14 +625,22 @@ height: 260px;
 }
 
 .img_preview {
-	width:210px;
-	height:140px;
-	background-color: #9a9a9a;
+	width:100%;
+	height:200px;
 	margin: 50px auto;
 	color:#fff;
 	text-align: center;
 	line-height: 200px;
+	overflow: hidden;
+	background-color: #e2e2e2;
+
 }
+
+img.img_preview{
+	
+}
+
+
 
 /*End style text_section*/
 
@@ -734,6 +742,7 @@ height: 260px;
 	color:#4c555e;
 	font-size:16px;
 	line-height: 1.5;
+	text-align: justify;
 }
 .post-wrap{
 	background-color: #e2e2e2;
@@ -743,6 +752,14 @@ div.center{
 	margin:0 auto;
 	width:771px;
 }
+
+div.post>p>a>img{
+	float:right;
+	margin: 4px 10px 2px 5px;
+	border:1px solid #CCC;
+	padding:6px;
+}
+
 /*End style pages*/
 
 
